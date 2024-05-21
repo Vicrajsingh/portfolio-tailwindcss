@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Portfolion</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+<!-- Awal Navar -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-5">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#hero" class="font-bold text-lg text-hijau block py-6">Vicraj</a>
+        </div>
+        <div class="flex items-center p-4">
+          <button id="garis" name="garis" type="button" class="block absolute right-4 lg:hidden">
+            <span class="garis transition duration-150 ease-in-out origin-top-left"></span>
+            <span class="garis transition duration-150 ease-in-out"></span>
+            <span class="garis transition duration-150 ease-in-out origin-bottom-left"></span>
+          </button>
+  
+          <nav id="menunav" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home" class="flex text-base text-hitam py-2 mx-8 hover:text-hijau">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="flex text-base text-hitam py-2 mx-8 hover:text-hijau">Tentang Saya</a>
+              </li>
+              <li class="group">
+                <a href="#project" class="flex text-base text-hitam py-2 mx-8 hover:text-hijau">Project</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- Akhir Navbar -->
+<!-- awal home -->
+<section id="home" class="pt-36">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center lg:w-1/2">
+                <h1 class="text-base font-semibold text-hijau">Hallo, Saya adalah  
+                    <span class="block font-bold text-hitam text-4xl mt-1 lg:text-5xl">Vicraj</span></h1>
+                <h2 class="font-medium text-slate-600 text-lg lg:text-2xl">Saya adalah mahasiswa UNPRI</h2>
+                <p class="font-medium text-abuabu mb-10 leading-relaxed">Belajar membuat Website Portfolio mudah bukan?</p>
+                <a href="#" class="text-base font-semibold text-white bg-hijau py-3 px-8
+                rounded-full hover:shadow-lg hover:opacity-70 transition duration-300 ease-in-out">Hire Me</a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="mt-10 lg:mt-9 lg:right-0">
+                    <img src="src/gambarhome/avatar.png" alt="home" class="max-w-full mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- akhir home -->
+
+<!-- awal About -->
+<section id="about" class="pt-36 pb-32">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-10 lg:w-1/2">
+                <h4 class="font-bold text-hijau text-lg mb-3 lg:text-5xl">TENTANG SAYA</h4>
+                <p class="font-medium text-base text-abuabu max-w-full lg:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti eius non neque voluptate maxime sit!</p>
+            </div>
+            <div class="w-full px-4 lg:w-1/2">
+                <h3 class="font-semibold text-hijau mb-3 text-lg lg:text-5xl">MARI IKUTI SAYA</h3>
+                <p class="font-medium text-base text-abuabu max-w-full lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ad! Aut inventore quisquam aperiam facere ab optio atque possimus voluptas!</p>
+                <div class="flex items-center">
+                     <!-- Facebook -->
+                <a href="https://www.facebook.com/">
+                    <svg  xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 rounded-full flex justify-center items-center mr-3 border border-slate-300 text-abuabu hover:border-hijau hover:bg-hijau hover:text-white   "  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                </a>
+                    <!-- Instagram -->
+                <a href="https://www.instagram.com/">
+                    <svg  xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 rounded-full flex justify-center items-center mr-3 border border-slate-300 text-abuabu hover:border-hijau hover:bg-hijau hover:text-white width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg> 
+                </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir About -->
+
+<!-- Awal Project -->
+<section id="project">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-4">
+                <h4 class="font-semibold text-hijau text-lg mb-4">Tentang Saya</h4>
+                <h2 class="font-bold text-hitam text-3xl mb-4">Project Yang Pernah Dikerjakan</h2>
+                <p class="font-medium text-abuabu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum minus molestias eius illo alias.</p>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-sm overflow-hidden">
+                        <img src="src/gambarproject/benar1.png" alt="Google" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-hitam text-xl mt-5 mb-3">Google</h3>
+                    <p class="font-medium text-base text-abuabu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto neque earum animi, quasi soluta expedita.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-sm overflow-hidden">
+                        <img src="src/gambarproject/benar2.png" alt="Tailwind" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-hitam text-xl mt-5 mb-3">Tailwind Css</h3>
+                    <p class="font-medium text-base text-abuabu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto neque earum animi, quasi soluta expedita.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-sm overflow-hidden">
+                        <img src="src/gambarproject/benar3.png" alt="Netflix" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-hitam text-xl mt-5 mb-3">Netflix</h3>
+                    <p class="font-medium text-base text-abuabu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto neque earum animi, quasi soluta expedita.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-sm overflow-hidden">
+                        <img src="src/gambarproject/benar4.png" alt="Disney Hotstar" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-hitam text-xl mt-5 mb-3">Disney Hotstar</h3>
+                    <p class="font-medium text-base text-abuabu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto neque earum animi, quasi soluta expedita.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Project -->
+
+<!-- Awal Footer -->
+<footer class="bg-neutral-800 pt-24 pb-24">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-6 mb-12 text-white font font-medium md:w-1/3">
+                <h2 class="font-bold text-4xl mb-5">VICRAJ</h2>
+                <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
+                <p>Vickraj123@gmail.com</p>
+                <p>Jl.Sampul No.3 Sei Putih Kec.Medan Petisah Kota Medan</p>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                <ul class="text-white">
+                    <li>
+                        <a href="#" class="inline-block text-base hover:text-hijau mb-3">Programming</a>
+                    </li>
+                    <li>
+                        <a href="#" class="inline-block text-base hover:text-hijau mb-3">Design</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                <ul class="text-white">
+                    <li>
+                        <a href="#hero" class="inline-block text-base hover:text-hijau mb-3">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="inline-block text-base hover:text-hijau mb-3">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="inline-block text-base hover:text-hijau mb-3">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-full pt-10 border-t border-gray-500">
+            <div class="flex items-center justify-center mb-5">
+                <!-- Facebook -->
+           <a href="https://www.facebook.com/">
+               <svg  xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 rounded-full flex justify-center items-center mr-3 border border-slate-300 text-abuabu hover:border-hijau hover:bg-hijau hover:text-white   "  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+           </a>
+               <!-- Instagram -->
+           <a href="https://www.instagram.com/">
+               <svg  xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 rounded-full flex justify-center items-center mr-3 border border-slate-300 text-abuabu hover:border-hijau hover:bg-hijau hover:text-white width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg> 
+           </a>
+           </div>
+           <p class=" font-medium text-sm text text-slate-400 text-center">Dibuat oleh Vicraj, Memakai Tailwindcss</p>
+        </div>
+    </div>
+</footer>
+<!-- Akhir Footer -->
+<script src="src/script.js"></script>
+</body>
+</html>
